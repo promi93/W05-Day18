@@ -472,7 +472,7 @@ footer a {
   }
 
   .foot {
-    background-color: rgba(238, 238, 223, 0.309);
+    background-color: rgba(238, 238, 223, 0.429);
     width: 55px;
     height: 55px;
     padding: 1em;
@@ -490,29 +490,60 @@ footer a {
 /* medium */
 
 @media screen and (min-width: 700px) {
-  
 
-.primo {
-  position: absolute;
-  bottom: 92%;
+
+  .primo {
+    position: absolute;
+    bottom: 92%;
+  }
+
+  .secondo {
+    position: absolute;
+    bottom: 85%;
+  }
+
+  table {
+    margin: 0 auto 15% auto;
+  }
+
+  input {
+    width: 70%;
+  }
+
+  .terzo {
+    position: relative;
+    bottom: -170px;
+  }
+
 }
 
-.secondo {
-  position: absolute;
-  bottom: 85%;
-}
+/* desktop */
 
-table {
-  margin: 0 auto 15% auto; 
-}
+@media screen and (min-width: 1200px) {
 
-input {
-  width: 70%;
-}
 
-.terzo {
-  position: relative;
-  bottom: -170px;
-}
+  .fa-tag {
+    position: relative;
+    left: 83%;
+    opacity: 0.1;
+  }
 
+  .primo {
+    position: absolute;
+    left: 100%;
+    bottom: 93.4%;
+    
+  }
+
+  .secondo {
+    position: absolute;
+    left: 100%;
+    bottom: 88%;
+
+  }
+
+  .terzo {
+    position: relative;
+    left: 100%;
+  }
 }
